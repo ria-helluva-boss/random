@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const alphabet = `abcdefghijklmnopqrstuvwxyz`;
+        
+        const index1 =  Math.floor(Math.random() * alphabet.length);
+        const index2 =  Math.floor(Math.random() * alphabet.length);
+        const index3 =  Math.floor(Math.random() * alphabet.length);
+        const index4 =  Math.floor(Math.random() * alphabet.length);
+
+        const randomString = alphabet.substring(index1,index1+1)
+                            + alphabet.substring(index2,index2+1)
+                            + alphabet.substring(index3,index3+1) 
+                            + alphabet.substring(index4,index4+1);
+
+        console.log(randomString);                    
+    </script>
+</body>
+</html>
